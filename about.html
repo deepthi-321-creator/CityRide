@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About - CityRide</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1, h2, h5 {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .section-darkblue {
+      background: linear-gradient(135deg, #0b0c2a, #11113a);
+      padding: 60px 20px;
+      color: white;
+    }
+
+    .section-brown {
+      background: linear-gradient(135deg, #3e2f1c, #4b3621);
+      padding: 60px 20px;
+      color: white;
+    }
+
+    .section-carousel {
+      background: linear-gradient(135deg, #1e1e2f, #2c3e50);
+      padding: 60px 20px;
+      color: white;
+    }
+
+    .section-heading {
+      font-weight: bold;
+      color: #ffc107;
+    }
+
+    .description {
+      font-size: 18px;
+      margin-bottom: 40px;
+      color: #d9d9d9;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .card {
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+      background-color: #1c1e35;
+      color: white;
+      transition: 0.3s;
+      height: 100%;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+    }
+
+    .icon {
+      font-size: 36px;
+      color: #ffc107;
+      margin-bottom: 15px;
+    }
+
+    .carousel-item {
+      padding: 40px 20px;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-color: #ffc107;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+
+<!-- About Section -->
+<section class="section-darkblue">
+  <div class="container">
+    <h1 class="text-center section-heading mb-4">About CityRide</h1>
+    <p class="text-center description">
+      CityRide is more than just a ride-booking platform — it's a local movement driven by trust, affordability, and ease.
+      We’re here to make your daily commute smoother and more transparent with our community-first approach.
+      Designed by drivers and loved by riders, CityRide connects you to reliable transport in seconds.
+      <br><br>
+      CityRide is a homegrown ride-hailing platform built with a mission to serve the people — by the people who know the roads best: the drivers themselves.
+      Whether you're commuting to work, attending a family function, or catching a late-night train, CityRide ensures you reach safely, affordably, and on time.
+      <br><br>
+      We believe in fair pricing, verified drivers, and technology that empowers the community.
+      Every ride you take supports hardworking local drivers and contributes to a more sustainable urban transport system.
+    </p>
+    <div class="row g-4 text-center">
+      <div class="col-md-4">
+        <div class="card p-4">
+          
+          <h5 class="fw-bold">Fair Pricing</h5>
+          <p>No hidden charges or surge pricing. Get clear, upfront fares always.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-4">
+         
+          <h5 class="fw-bold">Live Tracking</h5>
+          <p>Track your ride in real time from pickup to destination with confidence.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-4">
+          <h5 class="fw-bold">Trusted Drivers</h5>
+          <p>All drivers are verified and community-rated for your peace of mind.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section-brown">
+  <div class="container">
+    <h2 class="text-center section-heading mb-4">How to Book a Cab</h2>
+    <div class="row g-4 text-center">
+      <div class="col-md-4">
+        <div class="card p-4">
+          <h5 class="fw-bold">Step 1: Login</h5>
+          <p>Login with your email & password or create an account to get started.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-4">
+          <h5 class="fw-bold">Step 2: Set Locations</h5>
+          <p>Choose pickup and drop points using our map-based interface.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-4">
+          <h5 class="fw-bold">Step 3: Confirm Ride</h5>
+          <p>Select vehicle, confirm fare & book — your ride is on the way!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section-carousel">
+  <div class="container">
+    <h2 class="text-center section-heading mb-4">What Our Customers Say</h2>
+    <div id="reviewsCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <div class="text-center">
+            <p class="fs-5 fst-italic">"CityRide is my go-to for daily office commutes. The pricing is fair, and the drivers are polite!"</p>
+            <h5 class="fw-bold">– Anjali Rao, Bengaluru</h5>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="text-center">
+            <p class="fs-5 fst-italic">"I love that there’s no surge pricing even during peak hours. Best local service I've used!"</p>
+            <h5 class="fw-bold">– Rahul Mehta, Mysuru</h5>
+          </
